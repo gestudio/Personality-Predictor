@@ -4,7 +4,7 @@
 	function plot($color='black',$length=5)
 	{
 		//print 'in plot';
-		echo "<div style='border:4px solid white;background:".$color.";height:20px;width:".($length*40)."'>";
+		echo "<div style='border:0px solid white;background:".$color.";height:25px;width:".($length*50)."'>";
 		echo round($length,2);
 		echo "</div>";
 		//echo $length;
@@ -14,8 +14,17 @@
   // could come from anywhere, POST, GET, database etc. 
   //$result = ["1"=>2.3,"2"=>3.3,"3"=>1.2,"4"=>3.6,"5"=>4.2]; 
 ?>
-
-  <table style="margin-left:auto;margin-right:auto;border:1px solid black;background:white">
+  <table  class='' style="margin-left:auto;margin-right:auto;">
+    <tr>
+      <td style="text-align:center">
+        <div style="font-size:20px;color:blue">
+          <?=$values["name"]?>
+        </div>
+      </td>
+    </tr>
+    <tr>
+    	<td>
+    		<table class='table table-bordered table-striped' style="margin-left:auto;margin-right:auto;background:white">
   	<tr>
   		<td>
   			Extraversion
@@ -57,7 +66,14 @@
   		</td>
   	</tr>
   </table>
+  	</td>
+  </tr>
+  </table>
+  
   <div style="text-align:center;font-size:20px;">
   You may find significance of these features <a href="http://en.wikipedia.org/wiki/Big_Five_personality_traits" target="_blank"> here</a>
+  </div>
+  <div style="text-align:center;font-size:30px;color:gold">
+    Thanks for your cooperation. We will be back soon
   </div>
 </div>

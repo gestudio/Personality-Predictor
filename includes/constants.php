@@ -6,7 +6,7 @@
      **********************************************************************/
 
     // your database's name
-    define("DATABASE", "test");
+    define("DATABASE", "personality");
 
     // your database's password
     define("PASSWORD", "");

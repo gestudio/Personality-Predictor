@@ -14,7 +14,7 @@
      */
     function apologize($message)
     {
-        render("apology.php", ["message" => $message]);
+        render("apology.php", array("message" => $message));
         exit;
     }
 
@@ -87,6 +87,7 @@
         {
             // trigger (big, orange) error
             trigger_error($handle->errorInfo()[2], E_USER_ERROR);
+            //print "something is wrong";
             exit;
         }
 
@@ -113,6 +114,7 @@
      */
     function redirect($destination)
     {
+    	ob_start();
         // handle URL
         if (preg_match("/^https?:\/\//", $destination))
         {
@@ -144,7 +146,7 @@
     /**
      * Renders template, passing in values.
      */
-    function render($template, $values = [])
+    function render($template, $values = array())
     {
         // if template exists, render it
         if (file_exists("../templates/$template"))

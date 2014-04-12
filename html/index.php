@@ -1,4 +1,6 @@
 <?php
-	require_once("../includes/config.php");
-	render('test-home.php',["title"=>"Personality Test"]);
+
+ require("../includes/config.php");
+
+render("home.php", ["title" => "Home"]);
 ?>

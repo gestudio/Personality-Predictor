@@ -1,4 +1,5 @@
-<div class='start-back' style="height:80%">
+
+<div >
 
 <table style="width:50%;margin-left:auto;margin-right:auto;">
 	<tr>
@@ -10,7 +11,7 @@
 <table style="margin-left:auto;margin-right:auto">
 	<tr>
 		<td>
-			<a class='start-button' style='text-align:center' href='questionnire.php'>Start Test</a>
+			<a class='btn btn-large btn-primary' style='text-align:center' href='questionnire.php'>Start Test</a>
 		</td>
 	</tr>
 </table>
