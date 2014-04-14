@@ -10,12 +10,14 @@
 		<td>
 			<ul>
 				<li>
-					<a href = "index-test.php">
+					<a href = "questionnire.php">
 						Gold Berg's 44 question test
 					</a>
 				</li>
 				<li>
-					Comic based test
+					<a href="comic-test.php">
+						Comic based test
+					</a>
 				</li>
 			</ul>
 		</td>

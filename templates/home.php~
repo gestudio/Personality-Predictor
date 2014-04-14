@@ -1,16 +1,16 @@
 <table class = "table table-bordered table-striped" style = "margin-left:auto; margin-right:auto; width:400px">
 	<tr>
 		<td>
-			<h2 style = 'text-align:center'>
+			<h3 style = 'text-align:center'>
 				Personality Tests
-			</h2>
+			</h3>
 		</td>
 	</tr>
 	<tr>
 		<td>
 			<ul>
 				<li>
-					<a href = "index-test.php">
+					<a href = "questionnire.php">
 						Gold Berg's 44 question test
 					</a>
 				</li>
